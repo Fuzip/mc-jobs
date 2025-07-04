@@ -1,0 +1,11 @@
+name: Jobs
+main: dev.fuzip.jobs.Jobs
+version: 1.0
+api-version: '1.21'
+load: STARTUP
+author: Fuzip
+description: Add Job in Minecraft with levels and rewards.
+commands:
+  jobs:
+    description: Show informations about your jobs or others.
+    usage: /jobs, /jobs <username>, /jobs <job_name> info, /jobs <job_name> leader
